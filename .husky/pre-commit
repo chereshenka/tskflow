@@ -1,1 +1,2 @@
+//lint staged files
 npx lint-staged
