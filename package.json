@@ -1,35 +1,35 @@
 {
-  "name": "taskflow-ts",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
-    "prepare": "husky",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "format": "prettier . --write",
-    "format:check": "prettier . --check",
-    "types": "tsc --noEmit",
-    "all": "npm run lint && npm run format && npm run types"
-  },
-  "lint-staged": {
-    "src/**/*.{ts,tsx}": [
-      "eslint --fix",
-      "prettier --write"
-    ]
-  },
-  "devDependencies": {
-    "@eslint/js": "^10.0.1",
-    "eslint": "^10.0.3",
-    "eslint-config-prettier": "^10.1.8",
-    "husky": "^9.1.7",
-    "lint-staged": "^16.3.2",
-    "prettier": "^3.8.1",
-    "typescript": "~5.9.3",
-    "typescript-eslint": "^8.56.1",
-    "vite": "^7.3.1"
-  }
+    "name": "taskflow-ts",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "prepare": "husky",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "format": "prettier . --write",
+        "format:check": "prettier . --check",
+        "types": "tsc --noEmit",
+        "all": "npm run lint && npm run format && npm run types"
+    },
+    "lint-staged": {
+        "src/**/*.{ts,tsx}": [
+            "eslint --fix",
+            "prettier --write"
+        ]
+    },
+    "devDependencies": {
+        "@eslint/js": "^10.0.1",
+        "eslint": "^10.0.3",
+        "eslint-config-prettier": "^10.1.8",
+        "husky": "^9.1.7",
+        "lint-staged": "^16.3.2",
+        "prettier": "^3.8.1",
+        "typescript": "~5.9.3",
+        "typescript-eslint": "^8.56.1",
+        "vite": "^7.3.1"
+    }
 }
