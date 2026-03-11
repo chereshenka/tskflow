@@ -9,8 +9,9 @@
     "preview": "vite preview",
     "prepare": "husky",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix ",
+    "lint:fix": "eslint . --fix",
     "format": "prettier . --write",
+    "format:check": "prettier . --check",
     "types": "tsc --noEmit",
     "all": "npm run lint && npm run format && npm run types"
   },
